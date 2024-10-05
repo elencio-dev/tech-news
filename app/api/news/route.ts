@@ -23,7 +23,7 @@ const NEWS_SOURCES: NewsSource[] = [
   { url: 'https://www.bbc.com/portuguese', selector: '.gs-c-promo', titleSelector: '.gs-c-promo-heading__title', descriptionSelector: '.gs-c-promo-summary', linkSelector: 'a.gs-c-promo-heading' }
 ];
 
-export async function GET(req: NextRequest) {
+export async function GET() {
     try {
       const allNews: NewsArticle[] = [];
   
