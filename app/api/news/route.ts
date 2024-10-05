@@ -1,4 +1,4 @@
-import axios, { AxiosError } from 'axios';
+import axios from 'axios';
 import * as cheerio from 'cheerio';
 import { NextResponse } from 'next/server';
 

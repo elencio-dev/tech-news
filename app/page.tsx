@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react'
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 import { Skeleton } from "@/components/ui/skeleton"
-import { RefreshCcw, ExternalLink, Newspaper, Mic, ChevronRight } from 'lucide-react'
+import { RefreshCcw, Newspaper, Mic, ChevronRight } from 'lucide-react'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { dateFormatter } from '@/lib/dateFormatter'
 
